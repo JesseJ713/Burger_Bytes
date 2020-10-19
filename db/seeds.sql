@@ -1,0 +1,1 @@
+-- Populate 'burgers' table with data
