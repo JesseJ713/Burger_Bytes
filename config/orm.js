@@ -1,5 +1,6 @@
 let connection = require("./connection");
 
+// Methods that will execute necessary MySQL commands in the controller in order to retrieve and store data
 let orm = {
     selectAll: function(selectedTable, cb) {
         let queryString = "SELECT * FROM ??";
