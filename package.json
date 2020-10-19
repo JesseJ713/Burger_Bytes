@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JesseJ713/Burger_Bytes/issues"
   },
-  "homepage": "https://github.com/JesseJ713/Burger_Bytes#readme"
+  "homepage": "https://github.com/JesseJ713/Burger_Bytes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
