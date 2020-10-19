@@ -18,7 +18,7 @@ let orm = {
       },
 
       updateOne: function(uniqueId, cb) {
-        let queryString = "UPDATE burgers SET devoured = NOT devoured WHERE id = ?;
+        let queryString = "UPDATE burgers SET devoured = NOT devoured WHERE id = ?";
         connection.query(queryString, uniqueId, function(err, result) {
           if (err) throw err;
           cb(result);
@@ -26,3 +26,5 @@ let orm = {
       }
 
     };
+
+    module.exports = orm;
