@@ -12,3 +12,9 @@ router.get("/" , function (req, res) {
         res.render("index", hbsObject);
     });
 });
+
+router.post("/api/burgers", function (req, res) {
+    burger.create(req.body.burger_name, function(result) {
+        res.json({ id: result.insertId });
+    });
+});
