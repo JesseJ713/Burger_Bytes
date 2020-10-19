@@ -1,0 +1,19 @@
+{
+  "name": "burger_bytes",
+  "version": "1.0.0",
+  "description": "MVC designed burger logger using Node and MySQL to query/route data into the app, and Handlebars to generate the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseJ713/Burger_Bytes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseJ713/Burger_Bytes/issues"
+  },
+  "homepage": "https://github.com/JesseJ713/Burger_Bytes#readme"
+}
